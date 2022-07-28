@@ -5,7 +5,7 @@ import crashlytics from '@react-native-firebase/crashlytics';
 export default function App() {
   useEffect(() => {}, []);
   const sign = () => {
-    crashlytics().log('TESTING A CRASH');
+   
   };
 
   return (
